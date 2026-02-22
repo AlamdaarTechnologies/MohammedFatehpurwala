@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Abbas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons-font@v11/font/simple-icons.min.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader-container">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="stars-background">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </div>
+
+    <div class="layout-wrapper">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <a href="#" class="logo">M.A.F</a>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="#hero" class="active"><i
+                            class="fa-solid fa-house"></i><span>Home</span></a></li>
+                <li class="nav-item"><a href="#about"><i class="fa-solid fa-user"></i><span>About</span></a></li>
+                <li class="nav-item"><a href="#skills"><i class="fa-solid fa-code"></i><span>Skills</span></a></li>
+                <li class="nav-item"><a href="#projects"><i class="fa-solid fa-bolt"></i><span>Work</span></a></li>
+                <li class="nav-item"><a href="#experience"><i class="fa-solid fa-briefcase"></i><span>Path</span></a>
+                </li>
+                <li class="nav-item"><a href="#contact"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main>
+            <!-- Hero Section -->
+            <section id="hero" class="hero-section">
+                <div class="hero-content reveal">
+                    <h1 class="hero-name">Mohammed Abbas</h1>
+                    <h2 class="gold-text glow-text">CSE Undergrad | Cybersecurity Analyst | Cloud Enthusiast | Django
+                        & Python Developer</h2>
+                    <p class="tagline">Crafting elegant solutions for complex problems.</p>
+
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn-gold">View Work</a>
+                        <a href="CV.pdf" class="btn-outline">download CV</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about-section">
+                <div class="section-title reveal">
+                    <h2>About <span class="gold-text">Me</span></h2>
+                </div>
+
+                <div class="about-container reveal">
+                    <div class="about-image-box glass">
+                        <div class="placeholder-letter">M</div>
+                    </div>
+
+                    <div class="about-text-content glass">
+                        <h3 class="gold-text">CSE Undergrad | Cybersecurity Analyst | Cloud Enthusiast | Django &
+                            Python Developer</h3>
+                        <p>I am a passionate software engineer with 5+ years of experience building modern web
+                            applications. My expertise lies in creating beautiful, functional, and user-centric
+                            interfaces. I specialize in React, Node.js, and modern CSS architectures. When I'm not
+                            coding, you'll find me exploring new design trends or contributing to open-source projects.
+                        </p>
+
+                        <div class="about-info-grid">
+                            <div class="info-item">
+                                <span class="label">Email:</span>
+                                <span class="value">Mohammedfatehpur@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="label">Location:</span>
+                                <span class="value">Vadodara, Gujarat, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br><br>
+            <!-- Skills Section -->
+            <section id="skills" class="skills-section">
+                <div class="section-title reveal">
+                    <h2>Skills & <span class="gold-text">Technologies</span></h2>
+                </div>
+
+                <div class="skills-categorized-grid">
+                    <!-- Cloud & DevOps -->
+                    <div class="skill-box reveal">
+                        <h3>Cloud & DevOps</h3>
+                        <div class="skill-tags">
+                            <span><i class="fa-brands fa-aws"></i> AWS</span>
+                            <span><i class="fa-solid fa-cloud"></i> Azure</span>
+                            <span><i class="fa-brands fa-docker"></i> Docker</span>
+                            <span><i class="fa-solid fa-dharmachakra"></i> Kubernetes</span>
+                            <span><i class="fa-solid fa-infinity"></i> CI/CD</span>
+                            <span><i class="fa-solid fa-mountain-sun"></i> Terraform</span>
+                        </div>
+                    </div>
+
+                    <!-- Cybersecurity -->
+                    <div class="skill-box reveal">
+                        <h3>Cybersecurity</h3>
+                        <div class="skill-tags">
+                            <span><i class="fa-solid fa-shield-halved"></i> Network Security</span>
+                            <span><i class="fa-solid fa-user-secret"></i> Ethical Hacking</span>
+                            <span><i class="fa-solid fa-bug"></i> Metasploit</span>
+                            <span><i class="fa-solid fa-fish"></i> Wireshark</span>
+                            <span><i class="fa-solid fa-spider"></i> Burp Suite</span>
+                            <span><i class="fa-solid fa-key"></i> Cryptography</span>
+                        </div>
+                    </div>
+                    <!-- Certifications -->
+                    <div class="skill-box reveal">
+                        <h3>Certifications</h3>
+                        <div class="skill-tags">
+                            <span><i class="fa-brands fa-aws"></i> AWS Certified Solutions Architect-Associate</span>
+                            <span><i class="fa-brands fa-microsoft"></i> Azure Certified: Azure Administrator
+                                Associate</span>
+                            <span><i class="fa-solid fa-shield-halved"></i> NPTEL Certified: CYBERSECURITY &
+                                Privacy</span>
+
+                        </div>
+                    </div>
+
+                    <!-- Development -->
+                    <div class="skill-box reveal">
+                        <h3>Development</h3>
+                        <div class="skill-tags">
+                            <span><i class="fa-brands fa-html5"></i> HTML</span>
+                            <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+                            <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                            <span><i class="fa-brands fa-react"></i> React</span>
+                            <span><i class="fa-solid fa-code"></i> TypeScript</span>
+                            <span><i class="si si-django"></i> Django</span>
+                            <span><i class="fa-brands fa-python"></i> Python</span>
+                            <span><i class="fa-solid fa-wind"></i> TailwindCSS</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases & Tools -->
+                    <div class="skill-box reveal">
+                        <h3>Databases & Tools</h3>
+                        <div class="skill-tags">
+                            <span><i class="fa-solid fa-database"></i> MySQL</span>
+                            <span><i class="fa-solid fa-server"></i> XAMPP</span>
+                            <span><i class="fa-solid fa-cloud-arrow-up"></i> Vercel</span>
+                            <span><i class="fa-brands fa-git-alt"></i> Git</span>
+                            <span><i class="fa-solid fa-linux"></i> Kali Linux</span>
+                            <span><i class="fa-solid fa-terminal"></i> Bash</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects-section">
+                <div class="section-title reveal">
+                    <h2>Featured <span class="gold-text">Projects</span></h2>
+                </div>
+
+                <div class="projects-carousel-container reveal">
+                    <div class="projects-carousel">
+                        <div class="carousel-nav">
+                            <button id="prevBtn" class="nav-btn" aria-label="Previous Project">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <button id="nextBtn" class="nav-btn" aria-label="Next Project">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <div class="carousel-track">
+                            <!-- Project 1 -->
+                            <div class="carousel-card" data-index="0">
+                                <div class="card-image-content">
+                                    <div class="card-image-placeholder"
+                                        style="background: linear-gradient(45deg, #10b981, #059669);">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                </div>
+                                <div class="card-details">
+                                    <div class="project-badge">WEB SOLUTIONS</div>
+                                    <h3>Microservices E-Commerce</h3>
+                                    <p>Next-gen shopping platform with real-time inventory and seamless UX.</p>
+                                    <a href="#" class="view-details-btn">VIEW DETAILS →</a>
+                                </div>
+                            </div>
+                            <!-- Project 2 -->
+                            <div class="carousel-card" data-index="1">
+                                <div class="card-image-content">
+                                    <div class="card-image-placeholder"
+                                        style="background: linear-gradient(45deg, #06b6d4, #0891b2);">
+                                        <i class="fa-solid fa-robot"></i>
+                                    </div>
+                                </div>
+                                <div class="card-details">
+                                    <div class="project-badge">Information Security</div>
+                                    <h3>Secure File Sharing System</h3>
+                                    <p>A backend-focused secure file sharing platform emphasizing encryption, access
+                                        control, and integrity validation..</p>
+                                    <a href="#" class="view-details-btn">VIEW DETAILS →</a>
+                                </div>
+                            </div>
+                            <!-- Project 3 -->
+                            <div class="carousel-card" data-index="2">
+                                <div class="card-image-content">
+                                    <div class="card-image-placeholder"
+                                        style="background: linear-gradient(45deg, #3b82f6, #2563eb);">
+                                        <i class="fa-solid fa-chart-line"></i>
+                                    </div>
+                                </div>
+                                <div class="card-details">
+                                    <div class="project-badge">Network Security</div>
+                                    <h3>Network Traffic Analysis System</h3>
+                                    <p>A Python-based network traffic analyzer designed to detect suspicious patterns
+                                        and anomalies.</p>
+                                    <a href="#" class="view-details-btn">VIEW DETAILS →</a>
+                                </div>
+                            </div>
+                            <!-- Project 4 -->
+                            <div class="carousel-card" data-index="3">
+                                <div class="card-image-content">
+                                    <div class="card-image-placeholder"
+                                        style="background: linear-gradient(45deg, #8b5cf6, #7c3aed);">
+                                        <i class="fa-solid fa-cloud"></i>
+                                    </div>
+                                </div>
+                                <div class="card-details">
+                                    <div class="project-badge">Log Generator</div>
+                                    <h3>Log Generator</h3>
+                                    <p>A lightweight middleware that sits between the website and its hosting platform.
+                                        This component captures real-time request data—such as IP addresses, request
+                                        paths, user agents, and response metadata—and generates security-grade access
+                                        logs, even for websites hosted on free platforms</p>
+                                    <a href="#" class="view-details-btn">VIEW DETAILS →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                        <span class="dot" data-index="3"></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="experience-section">
+                <div class="section-title reveal">
+                    <h2>My <span class="gold-text">Journey</span></h2>
+                </div>
+
+                <div class="experience-list reveal">
+                    <!-- Item 1 -->
+                    <div class="experience-item glass">
+                        <div class="exp-date gold-text">2023-2027</div>
+                        <div class="exp-content">
+                            <h3>Computer Science Engineering</h3>
+                            <p class="company">ITM Vocational University</p>
+                            <p class="description"></p>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="experience-item glass">
+                        <div class="exp-date gold-text">2023 - 2025</div>
+                        <div class="exp-content">
+                            <h3>Learned Basics of Web Development and Computer Science </h3>
+                            <p class="company">ITM Vocational University</p>
+                            <p class="description"></p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="experience-item glass">
+                        <div class="exp-date gold-text">2025 - present</div>
+                        <div class="exp-content">
+                            <h3>Speacilizing Cybersecurity & Cloud Technologies</h3>
+                            <p class="company">ITM Vocational University</p>
+                            <p class="description">Speacilizing in Cybersecurity & Cloud Technologies</p>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="experience-item glass">
+                        <div class="exp-date gold-text">2025 - present</div>
+                        <div class="exp-content">
+                            <h3>ALAMDAAR TECHNOLOGIES</h3>
+                            <p class="company">Founder</p>
+                            <p class="description">Started a IT firm providing IT solutions for various clients. Gained
+                                extensive experience in project management, team leadership, and
+                                client communication.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section">
+                <div class="section-title reveal">
+                    <h2>Contact <span class="gold-text">Hub</span></h2>
+                </div>
+
+                <div class="contact-container reveal">
+                    <p class="contact-intro">Let's connect. Reach out via any of the channels
+                        below.</p>
+
+                    <div class="contact-grid">
+                        <a href="Mohammedfatehpur@gmail.com" class="contact-card glass">
+                            <i class="fa-solid fa-envelope gold-text"></i>
+                            <span class="label">Email Me</span>
+                            <span class="value">Mohammedfatehpur@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohammed-fatepurwala-70b675232?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bgi%2FlpW8JRoexWysDuyaNQg%3D%3D"
+                            class="contact-card glass">
+                            <i class="fa-brands fa-linkedin gold-text"></i>
+                            <span class="label">LinkedIn</span>
+                            <span class="value">Mohammed Fatepurwala</span>
+                        </a>
+                        <a href="https://github.com/mohammed-1753" class="contact-card glass">
+                            <i class="fa-brands fa-github gold-text"></i>
+                            <span class="label">GitHub</span>
+                            <span class="value">Mohammed Fatehpurwala</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
