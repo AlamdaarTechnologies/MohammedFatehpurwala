@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohammed-fatehpurwala.vercel.app/sitemap.xml
